@@ -1,0 +1,81 @@
+/* ฟอนต์และพื้นหลัง */
+body {
+    font-family: "Prompt", sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #f5f7fa;
+    color: #333;
+}
+
+/* หัวเว็บ */
+nav {
+    background: #0078ff;
+    padding: 15px 25px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav h1 {
+    color: #fff;
+    margin: 0;
+    font-size: 22px;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    margin-left: 20px;
+    font-weight: bold;
+}
+
+/* กล่องกลาง */
+.container {
+    width: 90%;
+    max-width: 900px;
+    margin: 40px auto;
+    background: white;
+    padding: 25px;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+}
+
+/* หัวข้อ */
+h2 {
+    margin-top: 0;
+    color: #0078ff;
+}
+
+/* รายการประกาศ */
+.announce-list a {
+    display: block;
+    background: #eef5ff;
+    padding: 15px;
+    margin: 10px 0;
+    border-radius: 8px;
+    text-decoration: none;
+    color: #0078ff;
+    font-weight: bold;
+    transition: 0.2s;
+}
+
+.announce-list a:hover {
+    background: #d9e8ff;
+}
+
+/* ปุ่ม */
+.btn-back {
+    display: inline-block;
+    margin-top: 20px;
+    background: #0078ff;
+    padding: 10px 18px;
+    color: white;
+    text-decoration: none;
+    border-radius: 6px;
+    transition: 0.2s;
+}
+
+.btn-back:hover {
+    background: #005fcc;
+}
+
